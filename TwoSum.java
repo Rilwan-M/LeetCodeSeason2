@@ -1,8 +1,7 @@
 import java.util.Arrays;
 import java.util.HashMap;
-import java.util.Map;
 
-    public class Main{
+    public class TwoSum{
 
         public static int[] twoSum(int[] nums, int target) {
 
@@ -41,7 +40,7 @@ import java.util.Map;
         // }
 
 
-        int[] arr = Main.twoSum(nums, 10);
+        int[] arr = TwoSum.twoSum(nums, 10);
 
         System.out.println(Arrays.toString(arr));
 
